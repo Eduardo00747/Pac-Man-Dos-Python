@@ -1,32 +1,6 @@
-"""
-    IMPORTANDO AS BLIBLIOTECA 
-    
-"""
-
 import random
 import math
 from colorama import Fore
-
-"""
-## PAC MAN
-## REGRAS DO JOGO 
-
-* Fugir dos fanstamas que estão sempre perseguindo o personagem
-* Se uns dos fantasma conseguir capturar o Pac Man o jogo acaba (Game Over)
-* Depois de algumas rodadas o item sagrado irá surgir em um ponto especifico do mapa
-* Se o jogador conseguir capturar o item sagrado, o jogo vai para a proxima fase
-* Sempre que o jogador passa de fase a dificuldade do jogo aumenta
-* Divita-se !
-
-## Integrates do grupo
-
-* Aylton Silva Torres
-* Charles Alberto Tomaz
-* Eduardo Alcântara de Souza
-* Julio Cesar Viana da Silva 
-* Wesley Pinheiros  
-
-"""
 
 def print_logo():# Definindo a função para imprimir o logo do jogo
     # Definindo a variável 'logo' com o logo do jogo em formato de string de várias linhas    
